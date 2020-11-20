@@ -1,0 +1,23 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "record any work",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/809studio/workflow.git"
+  },
+  "author": "Rigar Su",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/809studio/workflow/issues"
+  },
+  "homepage": "https://github.com/809studio/workflow#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
