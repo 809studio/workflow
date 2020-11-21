@@ -25,12 +25,22 @@ module.exports = {
       // }
     ],
     sidebar: [{
+      title: '项目开发',
+      path: '/develop/',
+      collapsable: false,
+      sidebarDepth: 1,
+      children: [
+        ['/develop/technology-selection', '技术选型'],
+        ['/develop/idea', '开发工具'],
+        ['/develop/js-eslint', 'js编码规范'],
+        ['/develop/css-styleguide', 'css编码规范'],
+      ]
+    }, {
       title: '项目工程化',
       path: '/ci/',
       collapsable: false,
       sidebarDepth: 1,
       children: [
-        ['/ci/css-styleguide', 'css编码规范'],
         ['/ci/deploy', '部署'],
       ]
     }],
