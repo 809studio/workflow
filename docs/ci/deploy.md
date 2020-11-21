@@ -12,7 +12,7 @@
 
 - 在第一次Travis CI完成自动部署后，根据`.travis.yaml`文件里的`target-branch`字段，会自动生成一个新的分支。之后我们需要在项目的`settings -> Options -> Github Pages`里，将source选成刚刚生成的分支，如下：
 
-![github-pages](/imgs/github-pages.png)
+<base-img img="github-pages.png" />
 
 ### Travis CI
 
@@ -20,7 +20,7 @@
 
 - 将在GitHub上生成的token填入Travis CI授权项目的`setting -> Environment Variables`，`name`记得和后面`.travis.yaml`文件里的`github_token`字段的值保持一致
 
-![travis-ci](/imgs/travis-ci.png)
+<base-img img="travis-ci.png" />
 
 ### VuePress
 

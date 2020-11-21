@@ -11,6 +11,9 @@ Auto Rename Tag
 Beautify
 格式化代码
 
+prettier-vscode
+vscode格式化代码的插件
+
 ESLint
 js语法纠错
 
@@ -55,7 +58,7 @@ CSS Peek
 
 打开vscode的`File -> Preferences -> settings`，按下图打开setting的json文件
 
-![open-setting](/imgs/open-setting.png)
+<base-img img="open-setting.png" />
 
 用如下内容覆盖setting.json文件，重启软件生效：
 

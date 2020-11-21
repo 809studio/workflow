@@ -34,6 +34,7 @@ module.exports = {
         ['/develop/idea', '开发工具'],
         ['/develop/js-eslint', 'js编码规范'],
         ['/develop/css-styleguide', 'css编码规范'],
+        ['/develop/git', 'git规范'],
       ]
     }, {
       title: '项目工程化',
