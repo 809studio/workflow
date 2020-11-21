@@ -31,6 +31,7 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         ['/ci/css-styleguide', 'css编码规范'],
+        ['/ci/deploy', '部署'],
       ]
     }],
     // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
