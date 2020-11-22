@@ -97,11 +97,24 @@ CSS Peek
 }
 ```
 
+在项目根目录下新建.vscode文件夹，并在该文件夹里面新建settings.json文件，然后将下面的内容复制粘贴进去：
+
+``` json
+{
+  "fileheader.Author": "rigar",
+  "fileheader.LastModifiedBy": "rigar"
+}
+```
+
+并将里面的两个名称改成自己的名称
+
 操作：
 
 - `shift + alt + f`格式化css（或sass、scss）
 
 - `ctrl + s`保存修改的同时，会自动格式化html和js
+
+- `ctrl + alt + i`生成文件顶部的注释
 
 ::: tip
 因此对于vue文件，我们先按`shift + alt + f`格式化css，之后再`ctrl + s`保存修改
