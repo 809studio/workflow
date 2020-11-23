@@ -24,4 +24,3 @@ jobs:
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
           REPOSITORY_NAME: 809studio/workflow # 这是我的 github page 仓库
-          TARGET_FOLDER: workflow # 打包的文件将放到静态服务器 workflow 目录下
