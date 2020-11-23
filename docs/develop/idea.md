@@ -93,7 +93,10 @@ CSS Peek
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "vetur.format.defaultFormatter.html": "js-beautify-html"
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
 }
 ```
 
