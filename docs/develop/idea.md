@@ -96,7 +96,16 @@ CSS Peek
   "vetur.format.defaultFormatter.html": "js-beautify-html",
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify"
-  }
+  },
+  "fileheader.tpl": "/*\r\n * @Author: {author} \r\n * @Date: {createTime} \r\n * @Last Modified by: {author} \r\n * @Last Modified time: {updateTime} \r\n * @Description: \r\n */\r\n",
+  "explorer.confirmDelete": false,
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.tabSize": 2
 }
 ```
 
