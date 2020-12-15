@@ -97,7 +97,6 @@ CSS Peek
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "fileheader.tpl": "/*\r\n * @Author: {author} \r\n * @Date: {createTime} \r\n * @Last Modified by: {author} \r\n * @Last Modified time: {updateTime} \r\n * @Description: \r\n */\r\n",
   "explorer.confirmDelete": false,
   "[json]": {
     "editor.defaultFormatter": "HookyQR.beautify"
@@ -105,7 +104,14 @@ CSS Peek
   "files.associations": {
     "*.json": "jsonc"
   },
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "fileheader.customMade": {
+    "Author": "",
+    "Date": "Do not Edit",
+    "LastEditTime": "Do not Edit",
+    "LastEditors": "",
+    "Description": " "
+  }
 }
 ```
 
@@ -113,8 +119,8 @@ CSS Peek
 
 ``` json
 {
-  "fileheader.Author": "rigar",
-  "fileheader.LastModifiedBy": "rigar"
+  "fileheader.customMade.Author": "rigar",
+  "fileheader.customMade.LastEditors": "rigar"
 }
 ```
 
@@ -127,6 +133,27 @@ CSS Peek
 - `ctrl + s`保存修改的同时，会自动格式化html和js
 
 - `ctrl + alt + i`生成文件顶部的注释
+
+```js
+/*
+ * @Author: rigar
+ * @Date: 2020-12-14 10:10:00
+ * @LastEditTime: 2020-12-15 14:01:26
+ * @LastEditors: rigar
+ * @Description:
+ */
+```
+
+- 光标停留在函数名称或顶部一行，`ctrl + alt + t`生成函数注释
+
+```js
+/**
+* @description: 
+* @param {*} username
+* @param {*} password
+* @return {*}
+*/
+```
 
 ::: tip
 因此对于vue文件，我们先按`shift + alt + f`格式化css，之后再`ctrl + s`保存修改
